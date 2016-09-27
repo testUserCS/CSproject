@@ -1,0 +1,52 @@
+body {
+    font: 24px Helvetica;
+    background: #999999;
+    height:100%;
+}
+
+header {
+    padding: 20px;
+    min-height: 100px;
+    border: 1px solid #000000;
+    border-radius: 3pt;
+    color: #005c99;
+    background-color:rgb(255, 255, 255);
+	font-family: Montserrat, sans-serif;
+}
+header img {
+    width:300px;
+    height:200px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.sidenav {
+    background-color: #f1f1f1;
+    height: 100em;
+}
+
+.text-left{
+    background-color: #f1f1f1;
+    height:100em;
+}
+
+.nav{
+    padding-top:15px;
+}
+
+ @media screen and (max-width: 767px) {
+    .sidenav {
+        height: auto;
+        padding: 15px;
+    }
+    .row.content {
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .col-md-10 {
+        text-align: center;
+        margin: 25px 0;
+    }
+}
